@@ -1,0 +1,10 @@
+a=0
+b=1
+c=1 
+fib=[a,b,c]
+while (c < 55):
+  a=b
+  b=c
+  c=a+b
+  fib.append(c)
+print(fib)
