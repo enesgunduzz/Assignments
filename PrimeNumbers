@@ -1,0 +1,13 @@
+numx=int(input('Asal sayı kontrolü yapılacak sayıyı girin: '))
+asalmi = True
+if (numx==1) :
+  print( '1 sayisi asal degildir')
+for i in range(2,numx):
+  if (numx % i == 0):
+    asalmi = False
+    break
+if asalmi:
+  print(f'{numx} 
+  sayisi asaldir')  
+else:  
+  print(f'{numx} sayisi asal değilir')
